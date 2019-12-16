@@ -12,7 +12,7 @@ const store = createStore(rootReducer);
 ReactDOM.render((
     <Provider store={store}>
         <BrowserRouter>
-            <App>
+            <App store={store}>
                 <Switch>
                     <Route exact path='/' component={() => <Home store={store}/>}/>
                     <Route path='*' component={Error}/>
