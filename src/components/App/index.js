@@ -1,8 +1,6 @@
 import './styles/normalize.scss';
 import './styles/grid.scss';
 import './styles/utilities.scss';
-import './styles/utilities.scss';
-import './styles/react-restyling.scss';
 
 import React from 'react';
 
